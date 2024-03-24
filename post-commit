@@ -1,0 +1,5 @@
+#!/bin/sh
+unset GIT_INDEX_FILE
+export GIT_WORK_TREE=/force-app/main/default/classes/
+export GIT_DIR=/HMVC/
+git checkout -f
